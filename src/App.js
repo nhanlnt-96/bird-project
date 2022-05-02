@@ -69,7 +69,7 @@ function App() {
           <Slider {...settings}>
             {
               [Image1, Image2, Image3, Image1, Image2, Image3].map((val, index) => (
-                <div className="app-slideshow__item" key={index}>
+                <div key={index} className="app-slideshow__item" key={index}>
                   <img src={val} alt=""/>
                 </div>
               ))
