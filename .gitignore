@@ -142,3 +142,6 @@ dist
 .DS_Store
 .idea
 .vscode
+.firebase/*
+.firebaserc
+firebase.json
