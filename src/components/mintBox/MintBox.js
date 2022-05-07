@@ -4,6 +4,12 @@ import {fetchData} from "../../redux/data/dataActions";
 import * as s from "../../styles/globalStyles";
 import {connect} from "../../redux/blockchain/blockchainActions";
 import {ResponsiveWrapper, StyledButton, StyledLink, StyledRoundButton, truncate} from "./styleComponent";
+import PlusBtnDefault from "../../assets/imgs/btn_plus_default-sm.png";
+import PlusBtnHover from "../../assets/imgs/btn_plus_hover-sm.png";
+import RestBtnDefault from "../../assets/imgs/btn_rest_default-sm.png";
+import RestBtnHover from "../../assets/imgs/btn_rest_hover-sm.png";
+import GreenBtnDefault from "../../assets/imgs/gree_button_default-sm.png";
+import GreenBtnHover from "../../assets/imgs/green_button_hover-sm.png";
 
 const MintBox = () => {
   const dispatch = useDispatch();
@@ -12,6 +18,8 @@ const MintBox = () => {
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
+  const [isHoverBtn, setIsHoverBtn] = useState(null);
+  
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
@@ -103,6 +111,14 @@ const MintBox = () => {
   useEffect(() => {
     getData();
   }, [blockchain.account]);
+  
+  const onHoverBtnMouseMove = (typeOfMouse, typeOfBtn) => {
+    if (typeOfMouse === "mousemove") {
+      setIsHoverBtn(typeOfBtn);
+    } else {
+      setIsHoverBtn(null);
+    }
+  };
   return (
     <ResponsiveWrapper flex={1} test>
       <s.Container
@@ -112,9 +128,8 @@ const MintBox = () => {
       >
         <s.TextTitle
           style={{
-            fontFamily: "cyperpunk, sans-serif",
             textAlign: "center",
-            fontSize: "clamp(40px, 3vw, 50px)",
+            fontSize: "clamp(30px, 3vw, 40px)",
             fontWeight: "bold",
             color: "var(--accent-text)",
           }}
@@ -215,8 +230,10 @@ const MintBox = () => {
                       e.preventDefault();
                       decrementMintAmount();
                     }}
+                    onMouseMove={(e) => onHoverBtnMouseMove(e.type, "-")}
+                    onMouseLeave={(e) => onHoverBtnMouseMove(e.type)}
                   >
-                    -
+                    <img src={isHoverBtn === "-" ? RestBtnHover : RestBtnDefault} alt=""/>
                   </StyledRoundButton>
                   <s.SpacerMedium/>
                   <s.TextDescription
@@ -234,8 +251,10 @@ const MintBox = () => {
                       e.preventDefault();
                       incrementMintAmount();
                     }}
+                    onMouseMove={(e) => onHoverBtnMouseMove(e.type, "+")}
+                    onMouseLeave={(e) => onHoverBtnMouseMove(e.type)}
                   >
-                    +
+                    <img src={isHoverBtn === "+" ? PlusBtnHover : PlusBtnDefault} alt=""/>
                   </StyledRoundButton>
                 </s.Container>
                 <s.SpacerSmall/>
@@ -247,7 +266,10 @@ const MintBox = () => {
                       claimNFTs();
                       getData();
                     }}
+                    onMouseMove={(e) => onHoverBtnMouseMove(e.type, "submit")}
+                    onMouseLeave={(e) => onHoverBtnMouseMove(e.type)}
                   >
+                    <img src={isHoverBtn === "submit" ? GreenBtnHover : GreenBtnDefault} alt=""/>
                     {claimingNft ? "BUSY" : "BUY"}
                   </StyledButton>
                 </s.Container>
