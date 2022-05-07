@@ -6,15 +6,26 @@ export const truncate = (input, len) =>
 export const StyledButton = styled.button`
   outline: none;
   border: none;
-  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
-  border-radius: 50px;
+  //background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+  //border-radius: 50px;
   padding: 10px;
   font-weight: bold;
   width: 100px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  position: relative;
+  background: unset;
+  //box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  //-webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  //-moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+
+  img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
 
   :active {
     box-shadow: none;
@@ -22,31 +33,40 @@ export const StyledButton = styled.button`
     -moz-box-shadow: none;
   }
 
-  :hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
+  //:hover {
+  //  background-position: right center; /* change the direction of the change here */
+  //  color: #fff;
+  //  text-decoration: none;
+  //}
 `;
 
 export const StyledRoundButton = styled.button`
-  padding: 10px;
-  border-radius: 100%;
+  //padding: 10px;
+  //border-radius: 100%;
   border: none;
-  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
-  padding: 10px;
+  outline: none;
+  padding: 0;
+  background-color: unset;
+  //background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+  //padding: 10px;
   font-weight: bold;
   font-size: 15px;
-  color: var(--primary-text);
+  //color: var(--primary-text);
   width: 30px;
   height: 30px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  //box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  //-webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  //-moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
   :active {
     box-shadow: none;
