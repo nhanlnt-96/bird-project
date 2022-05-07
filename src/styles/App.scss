@@ -277,7 +277,7 @@ textarea {
   resize: vertical
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .xs-only {
     display: none
   }
@@ -301,13 +301,13 @@ textarea {
   height: 65vh
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top {
     height: 44vw
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-top {
     height: 633px
   }
@@ -326,13 +326,13 @@ textarea {
   background-image: url(../assets/imgs/background_topsection_medium-sm.png)
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-top .img-box-bg {
     background-image: url(../assets/imgs/background_topsection_medium-xl.png)
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-top .img-box-bg {
     background-size: 100% 100%
   }
@@ -365,13 +365,13 @@ textarea {
   margin: 0 auto
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .int-board-1 {
     overflow: hidden
   }
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg1 {
     position: absolute;
     top: 70%;
@@ -382,7 +382,7 @@ textarea {
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg1 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -404,13 +404,13 @@ textarea {
   }
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg1-1 {
     display: none
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg1-1 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -482,13 +482,13 @@ textarea {
   background-size: 0 0, contain
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg1-2 {
     display: none
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg1-2 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -608,7 +608,7 @@ textarea {
   position: relative
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg2 {
     padding-top: 80px
   }
@@ -618,13 +618,13 @@ textarea {
   margin-bottom: .2vw
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg2 .anime-wrapper {
     width: 60%
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg2 .anime-wrapper {
     width: 93%
   }
@@ -693,14 +693,14 @@ textarea {
   letter-spacing: 1.56vw
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg2 .counter-wrapper .counter-symbols {
     font-size: 1.74vw;
     letter-spacing: .35vw
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-top .tg2 .counter-wrapper .counter-symbols {
     font-size: 25px;
     letter-spacing: 5px
@@ -713,7 +713,7 @@ textarea {
   display: flex
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg3 {
     padding: 10px;
     -webkit-box-pack: justify;
@@ -730,7 +730,7 @@ textarea {
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -755,7 +755,7 @@ textarea {
   display: flex
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg3-1 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -766,7 +766,7 @@ textarea {
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-1 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -782,13 +782,13 @@ textarea {
   }
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg3-1 .btn-wrapper {
     width: 145px
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-1 .btn-wrapper {
     width: 48%
   }
@@ -801,7 +801,7 @@ textarea {
   padding-bottom: 38%
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-1 .btn-asp-box {
     padding-bottom: 38%
   }
@@ -830,13 +830,13 @@ textarea {
   outline-offset: 0
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-top .tg3-1 .tg3-1-btn {
     background-image: url(../assets/imgs/fox_button-sm.png), url(../assets/imgs/fox_button_hover-sm.png), url(../assets/imgs/fox_button_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-top .tg3-1 .tg3-1-btn {
     background-image: url(../assets/imgs/fox_button-xl.png), url(../assets/imgs/fox_button_hover-xl.png), url(../assets/imgs/fox_button_pressed-xl.png)
   }
@@ -863,14 +863,14 @@ textarea {
   font-size: 12px
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-1 .tg3-1-text {
     font-size: 1.2vw;
     top: 52%
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-top .tg3-1 .tg3-1-text {
     font-size: 17px
   }
@@ -882,13 +882,13 @@ textarea {
   flex: 0 1 auto
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg3-2 {
     margin-right: 15px
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-2 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -907,7 +907,7 @@ textarea {
   }
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 {
     position: absolute;
     right: 0;
@@ -918,7 +918,7 @@ textarea {
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -947,7 +947,7 @@ textarea {
   width: 88%
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 .sign-wrapper:not(:last-child) {
     margin-bottom: 10px
   }
@@ -971,13 +971,13 @@ textarea {
   will-change: background-image, background-size
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 .sign-wrapper .sign-anime.sign-1 {
     background-image: url(../assets/imgs/redlight_off-sm.png), url(../assets/imgs/redlight_on-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 .sign-wrapper .sign-anime.sign-1 {
     background-image: url(../assets/imgs/redlight_off-xl.png), url(../assets/imgs/redlight_on-xl.png)
   }
@@ -987,13 +987,13 @@ textarea {
   background-size: 0 0, contain
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 .sign-wrapper .sign-anime.sign-2 {
     background-image: url(../assets/imgs/greenlight_off-sm.png), url(../assets/imgs/greenlight_on-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 .sign-wrapper .sign-anime.sign-2 {
     background-image: url(../assets/imgs/greenlight_off-xl.png), url(../assets/imgs/greenlight_on-xl.png)
   }
@@ -1003,13 +1003,13 @@ textarea {
   background-size: 0 0, contain
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 .sign-wrapper .sign-anime.sign-3 {
     background-image: url(../assets/imgs/yellowlight_off-sm.png), url(../assets/imgs/yellowlight_on-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-top .tg3-2 .tg3-2-1 .sign-wrapper .sign-anime.sign-3 {
     background-image: url(../assets/imgs/yellowlight_off-xl.png), url(../assets/imgs/yellowlight_on-xl.png)
   }
@@ -1023,7 +1023,7 @@ textarea {
   display: none
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-2 .tg3-2-2 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -1094,7 +1094,7 @@ textarea {
   background-image: url(../assets/imgs/banner_text.png)
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-top .tg3-2 .tg3-2-2 .sign-text {
     font-size: 20px
   }
@@ -1106,7 +1106,7 @@ textarea {
   display: flex
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -1129,19 +1129,19 @@ textarea {
   width: 60px
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 .btn-wrapper {
     width: 88%
   }
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 .btn-wrapper:not(:last-child) {
     margin-right: 15px
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 .btn-wrapper:not(:last-child) {
     margin-bottom: 12%
   }
@@ -1177,13 +1177,13 @@ textarea {
   outline-offset: 0
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 .tg3-2-3-btn.btn-egg {
     background-image: url(../assets/imgs/button_egg-sm.png), url(../assets/imgs/button_egg_hover-sm.png), url(../assets/imgs/button_egg_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 .tg3-2-3-btn.btn-egg {
     background-image: url(../assets/imgs/button_egg-xl.png), url(../assets/imgs/button_egg_hover-xl.png), url(../assets/imgs/button_egg_pressed-xl.png)
   }
@@ -1197,13 +1197,13 @@ textarea {
   background-size: 0 0, 0 0, contain
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 .tg3-2-3-btn.btn-skull {
     background-image: url(../assets/imgs/star_button-sm.png), url(../assets/imgs/star_button_hover-sm.png), url(../assets/imgs/star_button_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-top .tg3-2 .tg3-2-3 .tg3-2-3-btn.btn-skull {
     background-image: url(../assets/imgs/star_button-xl.png), url(../assets/imgs/star_button_hover-xl.png), url(../assets/imgs/star_button_pressed-xl.png)
   }
@@ -1221,7 +1221,7 @@ textarea {
   display: none
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-top .tg3-3 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -1271,13 +1271,13 @@ textarea {
   height: 35vh
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-medium {
     height: 24vw
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-medium {
     height: 346px
   }
@@ -1296,13 +1296,13 @@ textarea {
   background-image: url(../assets/imgs/background_midsection_medium-sm.png)
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-medium .img-box-bg {
     background-image: url(../assets/imgs/background_midsection_medium-xl.png)
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-medium .img-box-bg {
     background-image: url(../assets/imgs/background_midsection_large-xl.png);
     background-size: 100% 100%
@@ -1340,7 +1340,7 @@ textarea {
   display: none
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-medium .g1 {
     display: block;
     -webkit-box-flex: 1;
@@ -1400,7 +1400,7 @@ textarea {
   align-items: center
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-medium .g2 {
     width: 36%
   }
@@ -1411,7 +1411,7 @@ textarea {
   width: 100%
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-medium .g2 .bg-g2-btn-wrapper {
     max-width: 360px;
     top: 50%;
@@ -1440,13 +1440,13 @@ textarea {
   background-size: 100% auto
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-medium .g2 .bg-g2-btn {
     background-image: url(../assets/imgs/button_base-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-medium .g2 .bg-g2-btn {
     background-image: url(../assets/imgs/button_base-xl.png)
   }
@@ -1456,7 +1456,7 @@ textarea {
   width: 56%
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .top-section .cdb-medium .g2 .btn-wrapper {
     max-width: 200px
   }
@@ -1496,13 +1496,13 @@ textarea {
   outline-offset: 0
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-medium .g2 .g2-btn {
     background-image: url(../assets/imgs/mainbutton_default-sm.png), url(../assets/imgs/mainbutton_hover-sm.png), url(../assets/imgs/mainbutton_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-medium .g2 .g2-btn {
     background-image: url(../assets/imgs/mainbutton_default-xl.png), url(../assets/imgs/mainbutton_hover-xl.png), url(../assets/imgs/mainbutton_pressed-xl.png)
   }
@@ -1512,7 +1512,7 @@ textarea {
   background-size: 0 0, 100% auto, 0 0
 }
 
-.top-section .cdb-medium .g2 .g2-btn.hover+.popup-text-wrapper, .top-section .cdb-medium .g2 .g2-btn:hover+.popup-text-wrapper {
+.top-section .cdb-medium .g2 .g2-btn.hover + .popup-text-wrapper, .top-section .cdb-medium .g2 .g2-btn:hover + .popup-text-wrapper {
   opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out
@@ -1522,7 +1522,7 @@ textarea {
   background-size: 0 0, 0 0, 100% auto
 }
 
-.top-section .cdb-medium .g2 .g2-btn.active+.popup-text-wrapper, .top-section .cdb-medium .g2 .g2-btn:active+.popup-text-wrapper, .top-section .cdb-medium .g2 .g2-btn:focus+.popup-text-wrapper {
+.top-section .cdb-medium .g2 .g2-btn.active + .popup-text-wrapper, .top-section .cdb-medium .g2 .g2-btn:active + .popup-text-wrapper, .top-section .cdb-medium .g2 .g2-btn:focus + .popup-text-wrapper {
   opacity: 0;
   -webkit-transition: opacity 0s ease-in-out;
   transition: opacity 0s ease-in-out
@@ -1567,7 +1567,7 @@ textarea {
   display: none
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .top-section .cdb-medium .g3 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -1738,7 +1738,7 @@ textarea {
   flex-direction: column
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-bottom {
     height: 446px
   }
@@ -1756,19 +1756,19 @@ textarea {
   background-size: cover
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .top-section .cdb-bottom .img-box-bg {
     background-image: url(../assets/imgs/background_bottomsection_medium-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .top-section .cdb-bottom .img-box-bg {
     background-image: url(../assets/imgs/background_bottomsection_medium-xl.png)
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .top-section .cdb-bottom .img-box-bg {
     background-image: url(../assets/imgs/background_bottomsection_large-xl.png);
     background-size: 100% 100%
@@ -1796,7 +1796,7 @@ textarea {
   padding: 0 8%
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .info-section .info-container-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1807,7 +1807,7 @@ textarea {
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .info-section .info-container-wrapper {
     padding: 0 115px;
     margin: -200px auto 0;
@@ -1827,17 +1827,23 @@ textarea {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width:1199px) {
+.info-section .anime-container img {
+  width: 100%;
+  padding: 12px;
+}
+
+@media screen and (max-width: 1199px) {
   .info-section .anime-container {
     width: 100%;
     max-width: 500px
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .info-section .anime-container {
     width: 50%;
     max-width: unset
@@ -1862,20 +1868,24 @@ textarea {
   padding: 15px
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .info-section .text-container {
     padding: 30px
   }
+  .info-section .anime-container img {
+    width: calc(100% / 2);
+    padding: 12px;
+  }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .info-section .text-container {
     width: 100%;
     max-width: 500px
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .info-section .text-container {
     padding: 80px 50px;
     width: 50%
@@ -1892,13 +1902,13 @@ textarea {
   word-break: break-word
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .info-section .text-container .title {
     font-size: 18px
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .info-section .text-container .title {
     font-size: 22px
   }
@@ -1914,13 +1924,13 @@ textarea {
   word-break: break-word
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .info-section .text-container .text {
     font-size: 14px
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .info-section .text-container .text {
     font-size: 16px
   }
@@ -1955,7 +1965,7 @@ textarea {
   margin: 0 auto 40px
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .thanks-section .thanks-text {
     font-size: 16px;
     max-width: 540px
@@ -2027,7 +2037,7 @@ textarea {
   padding: 80px 8% 40px
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .ask-section .ask-container-wrapper {
     padding: 80px 115px;
     margin: 0 auto;
@@ -2057,7 +2067,7 @@ textarea {
   margin-bottom: 12px
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .ask-section .title {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2072,7 +2082,7 @@ textarea {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .ask-section .title {
     font-size: 20px
   }
@@ -2091,7 +2101,7 @@ textarea {
   margin: 8px 0 0
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .ask-section .soc-icons {
     margin: 0 0 0 24px
   }
@@ -2105,7 +2115,7 @@ textarea {
   margin-right: 8px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .ask-section .soc-link {
     width: 80px
   }
@@ -2126,7 +2136,7 @@ textarea {
   padding-top: 36px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .ask-section .sub-title {
     font-size: 20px
   }
@@ -2142,7 +2152,7 @@ textarea {
   margin-bottom: 12px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .ask-section .ask-text {
     font-size: 16px
   }
@@ -2158,7 +2168,7 @@ textarea {
   margin-bottom: 8px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .ask-section .answer {
     font-size: 14px
   }
@@ -2181,7 +2191,7 @@ textarea {
   padding: 50px 8% 40px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .terms-section .terms-section-container {
     padding: 50px 150px 40px
   }
@@ -2193,7 +2203,7 @@ textarea {
   margin: 0 auto 36px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .terms-section .logo-container {
     margin: 0 0 36px;
     position: relative;
@@ -2221,7 +2231,7 @@ textarea {
   margin-bottom: 16px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .terms-section .terms-text p {
     font-size: 14px
   }
@@ -2236,7 +2246,7 @@ textarea {
   margin-bottom: 12px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .terms-section .title {
     font-size: 28px
   }
@@ -2252,7 +2262,7 @@ textarea {
   padding-top: 36px
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .terms-section .sub-title {
     font-size: 22px
   }
@@ -2277,7 +2287,7 @@ textarea {
   padding: 30px 8%
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .footer .footer-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2289,7 +2299,7 @@ textarea {
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .footer .footer-container {
     padding: 50px 70px;
     max-width: 1920px;
@@ -2307,7 +2317,7 @@ textarea {
   margin: 20px 0 24px
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .footer .logo-container {
     margin: 0 10px
   }
@@ -2342,7 +2352,7 @@ textarea {
   margin-bottom: 18px
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .footer .copy-container {
     margin-bottom: 0
   }
@@ -2359,7 +2369,7 @@ textarea {
   margin-bottom: 8px
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .footer .copy-r {
     font-size: 14px
   }
@@ -2374,7 +2384,7 @@ textarea {
   text-align: center
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .footer .term-link {
     font-size: 14px
   }
@@ -2401,13 +2411,13 @@ textarea {
   width: 60px
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .footer .soc-icon-link {
     width: 6vw
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .footer .soc-icon-link {
     width: 80px
   }
@@ -2474,27 +2484,27 @@ body.vanilla-modal .modal-content {
   background-size: contain
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .popup {
     width: 500px;
     height: 347px
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .popup {
     width: 600px;
     height: 415px
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .popup {
     background-image: url(../assets/imgs/popup-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .popup {
     background-image: url(../assets/imgs/popup-xl.png)
   }
@@ -2514,19 +2524,19 @@ body.vanilla-modal .modal-content {
   line-height: 1.3
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .popup .modal-text-container #m-t1, .popup .modal-text-container #m-t3 {
     font-size: 6px
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .popup .modal-text-container #m-t1, .popup .modal-text-container #m-t3 {
     font-size: 10px
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .popup .modal-text-container #m-t1, .popup .modal-text-container #m-t3 {
     font-size: 12px
   }
@@ -2541,19 +2551,19 @@ body.vanilla-modal .modal-content {
   line-height: 1.3
 }
 
-@media screen and (min-width:0) and (max-width:575px) {
+@media screen and (min-width: 0) and (max-width: 575px) {
   .popup .modal-text-container #m-t2, .popup .modal-text-container #m-t4 {
     font-size: 10px
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .popup .modal-text-container #m-t2, .popup .modal-text-container #m-t4 {
     font-size: 16px
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .popup .modal-text-container #m-t2, .popup .modal-text-container #m-t4 {
     font-size: 20px
   }
@@ -2603,7 +2613,7 @@ body.vanilla-modal .modal-content {
   outline-offset: 0
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .popup-form .btn-q-down, .popup-form .btn-q-up {
     width: 60px;
     height: 60px;
@@ -2611,7 +2621,7 @@ body.vanilla-modal .modal-content {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .popup-form .btn-q-down, .popup-form .btn-q-up {
     margin-right: 15px;
     width: 80px;
@@ -2633,25 +2643,25 @@ body.vanilla-modal .modal-content {
   background-size: 0 0, 0 0, contain
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .popup-form .btn-q-down {
     background-image: url(../assets/imgs/btn_rest_default-sm.png), url(../assets/imgs/btn_rest_hover-sm.png), url(../assets/imgs/btn_rest_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .popup-form .btn-q-down {
     background-image: url(../assets/imgs/btn_rest_default-xl.png), url(../assets/imgs/btn_rest_hover-xl.png), url(../assets/imgs/btn_rest_pressed-xl.png)
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .popup-form .btn-q-up {
     background-image: url(../assets/imgs/btn_plus_default-sm.png), url(../assets/imgs/btn_plus_hover-sm.png), url(../assets/imgs/btn_plus_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .popup-form .btn-q-up {
     background-image: url(../assets/imgs/btn_plus_default-xl.png), url(../assets/imgs/btn_plus_hover-xl.png), url(../assets/imgs/btn_plus_pressed-xl.png)
   }
@@ -2665,14 +2675,14 @@ body.vanilla-modal .modal-content {
   width: 40px
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .popup-form .input-box {
     width: 60px;
     margin-right: 10px
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .popup-form .input-box {
     width: 80px;
     margin-right: 15px
@@ -2691,19 +2701,19 @@ body.vanilla-modal .modal-content {
   border: none
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .popup-form .input-box .input {
     background: url(../assets/imgs/blank_square-sm.png) no-repeat 50% 50%/100% 100%
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .popup-form .input-box .input {
     background: url(../assets/imgs/blank_square-xl.png) no-repeat 50% 50%/100% 100%
   }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .popup-form .input-box .input {
     padding: 4px 5px;
     height: 60px;
@@ -2711,7 +2721,7 @@ body.vanilla-modal .modal-content {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .popup-form .input-box .input {
     padding: 4px 10px;
     height: 80px;
@@ -2766,26 +2776,26 @@ body.vanilla-modal .modal-content {
   outline-offset: 0
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .popup-form .btn-submit {
     height: 60px;
     font-size: 16px
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .popup-form .btn-submit {
     height: 80px
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .popup-form .btn-submit {
     background-image: url(../assets/imgs/gree_button_default-sm.png), url(../assets/imgs/green_button_hover-sm.png), url(../assets/imgs/green_button_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .popup-form .btn-submit {
     background-image: url(../assets/imgs/gree_button_default-xl.png), url(../assets/imgs/green_button_hover-xl.png), url(../assets/imgs/green_button_pressed-xl.png)
   }
@@ -2821,7 +2831,7 @@ body.vanilla-modal .modal-content {
   outline-offset: 0
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .btn-popup-close {
     width: 60px;
     height: 60px;
@@ -2830,7 +2840,7 @@ body.vanilla-modal .modal-content {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .btn-popup-close {
     width: 80px;
     height: 80px;
@@ -2839,13 +2849,13 @@ body.vanilla-modal .modal-content {
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .btn-popup-close {
     background-image: url(../assets/imgs/btn_close_default-sm.png), url(../assets/imgs/btn_close_hover-sm.png), url(../assets/imgs/btn_close_pressed-sm.png)
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .btn-popup-close {
     background-image: url(../assets/imgs/btn_close_default-xl.png), url(../assets/imgs/btn_close_hover-xl.png), url(../assets/imgs/btn_close_pressed-xl.png)
   }
