@@ -4,7 +4,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import store from "./redux/store";
 import {Provider} from "react-redux";
-import "./styles/reset.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
