@@ -26,6 +26,7 @@ import {fetchData} from "../../redux/data/dataActions";
 import {useDispatch, useSelector} from "react-redux";
 import {connect} from "../../redux/blockchain/blockchainActions";
 import MintBox from "../mintBox/MintBox";
+import Image1 from "../../assets/imgs/image1.png";
 
 const Banner = () => {
   const dispatch = useDispatch();
@@ -155,25 +156,26 @@ const Banner = () => {
                   ) : (
                     <div className="anime-wrapper">
                       <div className="anime-asp-box">
-                        <video autoPlay loop muted playsInline disableRemotePlayback
-                               className="tg2-anime video-safari-change" poster={Screen1}>
-                          <source media="(max-width: 1199px)" src={Screen675Webm}
-                                  type="video/webm" width="225" height="225"/>
-                          <source media="(max-width: 1199px)" src={Screen675Mp4}
-                                  type="video/mp4" width="225" height="225"/>
-                          <source media="(min-width: 1200px)" src={Screen1257}
-                                  type="video/webm" width="419" height="419"/>
-                          <source media="(min-width: 1200px)" src={Screen1257Mp4}
-                                  type="video/mp4" width="419" height="419"/>
-                          Your browser does not support the video tag.
-                        </video>
-                        <picture className="tg2-anime gif-safari-change" style={{display: "none"}}>
-                          <source media="(max-width: 1199px)" srcSet={Screen675Gif}
-                                  type="image/gif"/>
-                          <source media="(min-width: 1200px)" srcSet={Screen1257Gif}
-                                  type="image/gif"/>
-                          <img src={Screen1257Gif} alt="screen"/>
-                        </picture>
+                        <img src={Image1} alt="" className="tg2-anime" style={{borderRadius: "24px"}}/>
+                        {/*<video autoPlay loop muted playsInline disableRemotePlayback*/}
+                        {/*       className="tg2-anime video-safari-change" poster={Screen1}>*/}
+                        {/*  <source media="(max-width: 1199px)" src={Screen675Webm}*/}
+                        {/*          type="video/webm" width="225" height="225"/>*/}
+                        {/*  <source media="(max-width: 1199px)" src={Screen675Mp4}*/}
+                        {/*          type="video/mp4" width="225" height="225"/>*/}
+                        {/*  <source media="(min-width: 1200px)" src={Screen1257}*/}
+                        {/*          type="video/webm" width="419" height="419"/>*/}
+                        {/*  <source media="(min-width: 1200px)" src={Screen1257Mp4}*/}
+                        {/*          type="video/mp4" width="419" height="419"/>*/}
+                        {/*  Your browser does not support the video tag.*/}
+                        {/*</video>*/}
+                        {/*<picture className="tg2-anime gif-safari-change" style={{display: "none"}}>*/}
+                        {/*  <source media="(max-width: 1199px)" srcSet={Screen675Gif}*/}
+                        {/*          type="image/gif"/>*/}
+                        {/*  <source media="(min-width: 1200px)" srcSet={Screen1257Gif}*/}
+                        {/*          type="image/gif"/>*/}
+                        {/*  <img src={Screen1257Gif} alt="screen"/>*/}
+                        {/*</picture>*/}
                       </div>
                     </div>
                   )

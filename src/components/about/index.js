@@ -1,7 +1,6 @@
 import React from "react";
-import Image1 from "../../assets/imgs/image1.png";
-import Image2 from "../../assets/imgs/image2.png";
-import Image3 from "../../assets/imgs/image3.png";
+import Image4 from "../../assets/imgs/image4.png";
+import Image5 from "../../assets/imgs/image5.png";
 
 const About = () => {
   return (
@@ -9,7 +8,7 @@ const About = () => {
       <div className="info-container-wrapper">
         <div className="anime-container">
           {
-            [Image1, Image2, Image3].map((val, index) => (
+            [Image4, Image5].map((val, index) => (
               <img key={index} src={val} alt=""/>
             ))
           }
