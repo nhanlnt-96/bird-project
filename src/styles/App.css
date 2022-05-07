@@ -1493,23 +1493,31 @@ textarea {
 
 .top-section .cdb-medium .g2 .g2-btn:active, .top-section .cdb-medium .g2 .g2-btn:focus, .top-section .cdb-medium .g2 .g2-btn:hover {
     outline: 0;
-    outline-offset: 0
+    outline-offset: 0;
 }
 
 @media screen and (max-width: 1199px) {
     .top-section .cdb-medium .g2 .g2-btn {
-        background-image: url(../assets/imgs/mainbutton_default-sm.png), url(../assets/imgs/mainbutton_hover-sm.png), url(../assets/imgs/mainbutton_pressed-sm.png)
+        background-image: url(../assets/imgs/gree_button_default-sm.png), url(../assets/imgs/green_button_hover-sm.png), url(../assets/imgs/green_button_pressed-sm.png);
+        background-position: center;
+        font-family: PressStart2P;
+        color: #ffffff;
+        font-size: clamp(25px, 2vw, 40px);
     }
 }
 
 @media (min-width: 1200px) {
     .top-section .cdb-medium .g2 .g2-btn {
-        background-image: url(../assets/imgs/mainbutton_default-xl.png), url(../assets/imgs/mainbutton_hover-xl.png), url(../assets/imgs/mainbutton_pressed-xl.png)
+        background-image: url(../assets/imgs/gree_button_default-xl.png), url(../assets/imgs/green_button_hover-xl.png), url(../assets/imgs/green_button_pressed-xl.png);
+        background-position: center;
+        font-family: PressStart2P;
+        color: #ffffff;
+        font-size: clamp(25px, 2vw, 40px);
     }
 }
 
 .top-section .cdb-medium .g2 .g2-btn:hover {
-    background-size: 0 0, 100% auto, 0 0
+    background-size: 0 0, 100% auto, 0 0;
 }
 
 .top-section .cdb-medium .g2 .g2-btn.hover + .popup-text-wrapper, .top-section .cdb-medium .g2 .g2-btn:hover + .popup-text-wrapper {

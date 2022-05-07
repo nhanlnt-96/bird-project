@@ -27,6 +27,8 @@ import {useDispatch, useSelector} from "react-redux";
 import {connect} from "../../redux/blockchain/blockchainActions";
 import MintBox from "../mintBox/MintBox";
 import Image1 from "../../assets/imgs/image1.png";
+import ButtonDefault from "../../assets/imgs/gree_button_default-xl.png";
+import ButtonHover from "../../assets/imgs/green_button_hover-xl.png";
 
 const Banner = () => {
   const dispatch = useDispatch();
@@ -79,20 +81,20 @@ const Banner = () => {
                 <div className="lblock-item tg1-1">
                   <div className="anime-wrapper">
                     <div className="anime-asp-box">
-                      <video autoPlay loop muted playsInline disableRemotePlayback
-                             className="tg1-1-anime video-safari-change"
-                             poster={ScrollText1}>
-                        <source src={ScrollText837Webm} type="video/webm"
-                                width="279" height="73"/>
-                        <source src={ScrollText837Mp4} type="video/mp4"
-                                width="279" height="73"/>
-                        Your browser does not support the video tag.
-                      </video>
-                      <picture className="tg1-1-anime gif-safari-change" style={{display: "none"}}>
-                        <source media="(max-width: 1199px)"
-                                srcSet={ScrollText837Gif} type="image/gif"/>
-                        <img src={ScrollText837Gif} alt="scrolling"/>
-                      </picture>
+                      {/*<video autoPlay loop muted playsInline disableRemotePlayback*/}
+                      {/*       className="tg1-1-anime video-safari-change"*/}
+                      {/*       poster={ScrollText1}>*/}
+                      {/*  <source src={ScrollText837Webm} type="video/webm"*/}
+                      {/*          width="279" height="73"/>*/}
+                      {/*  <source src={ScrollText837Mp4} type="video/mp4"*/}
+                      {/*          width="279" height="73"/>*/}
+                      {/*  Your browser does not support the video tag.*/}
+                      {/*</video>*/}
+                      {/*<picture className="tg1-1-anime gif-safari-change" style={{display: "none"}}>*/}
+                      {/*  <source media="(max-width: 1199px)"*/}
+                      {/*          srcSet={ScrollText837Gif} type="image/gif"/>*/}
+                      {/*  <img src={ScrollText837Gif} alt="scrolling"/>*/}
+                      {/*</picture>*/}
                     </div>
                   </div>
                   {/*<div className="sign-wrapper">*/}
@@ -304,8 +306,7 @@ const Banner = () => {
               <div className="g2">
                 <div className="bg-g2-btn-wrapper">
                   <div className="btn-asp-box">
-                    <div className="bg-g2-btn">
-                    </div>
+                    {/*<div className="bg-g2-btn"></div>*/}
                   </div>
                 </div>
                 <div className="btn-wrapper">
@@ -314,12 +315,12 @@ const Banner = () => {
                       e.preventDefault();
                       dispatch(connect());
                       getData();
-                    }} disabled={blockchain.account}/>
-                    <span className="popup-text-wrapper">
-                      <span className="popup-text-asp-box">
-                        <span className="popup-text"/>
-                      </span>
-                    </span>
+                    }} disabled={blockchain.account}>Lauch</button>
+                    {/*<span className="popup-text-wrapper">*/}
+                    {/*  <span className="popup-text-asp-box">*/}
+                    {/*    <span className="popup-text"/>*/}
+                    {/*  </span>*/}
+                    {/*</span>*/}
                   </div>
                 </div>
               </div>
