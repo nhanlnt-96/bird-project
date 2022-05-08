@@ -124,14 +124,15 @@ table {
 }
 
 @font-face {
-  font-family: "coder";
-  src: local("coder"), url(font.woff) format("woff");
+  font-family: PressStart2P;
+  src: url(./74496d9086d97aaeeafb3085e9957668.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
   margin: 0;
-  font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: PressStart2P, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -143,8 +144,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: PressStart2P, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -157,5 +157,5 @@ body {
 }
 
 html {
-  background-color: "#4C4C4C";
+  background-color: #4C4C4C;
 }
