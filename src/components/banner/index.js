@@ -52,6 +52,8 @@ const Banner = () => {
     } else if (isUserSelectOption === 1) {
       dispatch(connect());
       getData();
+    } else {
+      window.location.href = "/#about";
     }
   };
   return (
