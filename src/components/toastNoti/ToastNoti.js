@@ -17,7 +17,7 @@ const ToastNoti = ({
   }, [errorMsg]);
   return (
     <ToastContainer className="p-3 toast-container"
-                    position={position ? position : "bottom-end"}>
+                    position={position ? position : "bottom-end"} style={{zIndex: 999}}>
       <Toast show={showToast}>
         <Toast.Header closeButton={false}>
           <strong className="me-auto">{titleNoti ? titleNoti : "Error"}</strong>
