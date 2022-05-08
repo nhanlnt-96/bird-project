@@ -34,7 +34,7 @@
 @media screen and (min-width: 1440px) {
     .info-section .info-container-wrapper {
         padding: 0 115px;
-        margin: -200px auto 0;
+       // margin: -200px auto 0;
         max-width: 1920px
     }
 }
