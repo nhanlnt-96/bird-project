@@ -8,7 +8,7 @@ import Image3 from "../../assets/img/image3.png";
 const About = () => {
   return (
     <Container className="about" fluid>
-      <Container fluid={"xxl"}>
+     {/*<Container fluid={"xxl"}>*/}
         <div className="info-section" id="about">
           <div className="info-container-wrapper">
             <div className="anime-container">
@@ -30,7 +30,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </Container>
+     {/*</Container>*/}
     </Container>
   );
 };
