@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="ask-container-wrapper">
             <h2 className="title">Join The MoonButts
               <span className="soc-icons">
-              <a className="soc-link" href="https://discord.gg/dZrXmdfG" target="_blank" rel="noreferrer">
+              <a className="soc-link" href="https://discord.gg/SsAdp4Kg" target="_blank" rel="noreferrer">
                 <picture>
                   <source media="(max-width: 1199px)" srcSet={Twitter1}
                           type="image/png" width="60" height="50"/>
